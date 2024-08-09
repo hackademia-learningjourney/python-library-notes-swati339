@@ -1,0 +1,53 @@
+﻿ASSIGNMENT:1
+
+
+SHORTS NOTES:
+ 
+Q.1. Pandas: Pandas is a powerful and open-source Python library. The Pandas library is used for data manipulation and analysis. Pandas consist of data structures and functions to perform efficient operations on data.
+This free tutorial will cover an overview of Pandas, covering the fundamentals of Python Pandas.
+
+
+The Pandas library is generally used for data science because the Pandas library is used in conjunction with other libraries that are used for data science. It is built on top of the numpy which means that a lot of the structures of NumPy are used or replicated in Pandas.
+The data produced by Pandas is often used as input for plotting functions in matplotlib, statistical analysis in Scipy, and machine learning algorithms in scikit-learn.
+For installing pandas in your machine, the following steps should be followed:
+Step 1: Type ‘cmd’ in the search box and open it.
+Step 2: Locate the folder using the cd command where the python-pip file has been installed.
+Step 3: After locating it, type the command:
+pip install pandas
+
+
+Q.2 Numpy: Numpy is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python.
+Besides its obvious scientific uses, Numpy can also be used as an efficient multi-dimensional container of generic data.
+Arrays in Numpy
+Array in Numpy is a table of elements (usually numbers), all of the same type, indexed by a tuple of positive integers. In Numpy, the number of dimensions of the array is called the rank of the array.A tuple of integers giving the size of the array along each dimension is known as shape of the array. An array class in Numpy is called as ndarray. Elements in Numpy arrays are accessed by using square brackets and can be initialised by using nested Python Lists.
+Creating a Numpy Array
+Arrays in Numpy can be created by multiple ways, with various numbers of Ranks, defining the size of the Array. Arrays can also be created with the use of various data types such as lists, tuples, etc. The type of the resultant array is deduced from the type of the elements in the sequences.
+
+Q.3. Tensorflow: TensorFlow is an open-source machine learning library developed by Google. TensorFlow is used to build and train deep learning models as it facilitates the creation of computational graphs and efficient execution on various hardware platforms. The article provides a comprehensive overview of tensorflow.
+TensorFlow is basically a software library for numerical computation using data flow graphs where:
+* nodes in the graph represent mathematical operations.
+* edges in the graph represent the multidimensional data arrays (called tensors) communicated between them. (Please note that tensor is the central unit of data in TensorFlow).
+Q.4 Keras:Keras is an open-source deep-learning framework that gained attention due to its user-friendly interface. Keras offers ease of use, flexibility, and the ability to run seamlessly on top of TensorFlow. In this article, we are going to provide a comprehensive overview of Keras.
+Keras is a high-level, user-friendly API used for building and training neural network. It is designed to be user-friendly, modular, and easy to extend. Keras allows you to build, train, and deploy deep learning models with minimal code. It provides a high-level API that is intuitive and easy to use, making it ideal for beginners and experts alike.
+Key Features of Keras Library
+
+
+* Simplicity
+* Extensibility and Customizability
+* Cross-Platform Compatibility
+* Scalability and Performance
+* Fast Experimentation
+* Massive Ecosystem
+Q.5. Scikit-learn: Scikit-learn is an open-source python  library that implements a range of machine learning, pre-processing, cross-validation, and visualization algorithms using a unified interface. It is an open-source machine-learning library that provides a plethora of tools for various machine-learning  tasks such as classification , regression, clustering, and many more.
+Installation of Scikit- learn
+The latest version of Scikit-learn is 1.1 and it requires Python 3.8 or newer.
+Scikit-learn requires:  
+* NumPy
+* SciPy as its dependencies.
+Before installing scikit-learn, ensure that you have numpy and SciPy installed. Once you have a working installation of NumPy and SciPy, the easiest way to install scikit-learn is using pip: 
+!pip install -U scikit-learn
+
+
+Q.6. Pytorch: PyTorch is a machine learning framework written in the Python programming language.It allows you to write machine learning algorithms capable of turning data into models into intelligence.
+Why learn PyTorch?
+As of July 2022,58% of machine learning research papers with code available use PyTorch. And this number has been growing since PyTorch’s release.In essence, machine learning researchers love PyTorch.And typically, industry follows research.So if all of the best machine learning research is coming out in PyTorch, knowing PyTorch is a fantastic way to start working in machine learning.
